@@ -7,7 +7,9 @@ public class Debug {
 		int sum = calculator.add(10, 20);
 		System.out.println("the sum is--"+sum);
 		
-		throw new NullPointerException();
+		for(int a=0; a<5; a++) {
+			int f = a+ 5* 3;
+		}
 }
 
 }
