@@ -1,13 +1,17 @@
 package superkey;
 
 public class Animal {
-	String colour="white";  
+	void eat(){System.out.println("eating...");}  
 }  
 class Dog extends Animal{  
-	String colour="black";  
-	void printColour(){  
-		System.out.println(colour);
-		System.out.println(super.colour);  
+	void eat(){System.out.println("eating bread...");}
+
+	void bark(){System.out.println("barking...");} 
+
+	void work(){ 
+		super.eat();
+		bark();
 	}  
-}  
+}
+
 
