@@ -1,16 +1,13 @@
 package superkey;
 
 public class Animal {
-	void eat(){System.out.println("eating...");}  
+	Animal(){System.out.println("animal is created");}  
 }  
 class Dog extends Animal{  
-	void eat(){System.out.println("eating bread...");}
+	Dog(){  
+		super();
 
-	void bark(){System.out.println("barking...");} 
-
-	void work(){ 
-		super.eat();
-		bark();
+		System.out.println("dog is created");  
 	}  
 }
 
