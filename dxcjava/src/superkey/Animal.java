@@ -10,9 +10,4 @@ class Dog extends Animal{
 		System.out.println(super.colour);  
 	}  
 }  
-class TestSuper1{  
-	public static void main(String args[]){  
-		Dog d=new Dog();  
-		d.printColour();  
-	}
-}
+
