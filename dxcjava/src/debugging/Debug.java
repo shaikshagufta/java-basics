@@ -8,6 +8,7 @@ public class Debug {
 		System.out.println("the sum is--"+sum);
 		
 		for(int a=0; a<5; a++) {
+			@SuppressWarnings("unused")
 			int f = a+ 5* 3;
 		}
 }
