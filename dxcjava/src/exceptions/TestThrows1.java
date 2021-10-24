@@ -1,6 +1,6 @@
 package exceptions;
 
-public class TestThrow1 {
+public class TestThrows1 {
 	
 	//function to check if person is eligible to vote or not   
     public static void validate(int age) {  

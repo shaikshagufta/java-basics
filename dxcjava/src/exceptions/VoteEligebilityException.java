@@ -1,10 +1,9 @@
 package exceptions;
 
+@SuppressWarnings("serial")
 public class VoteEligebilityException extends Exception{
 
 	public VoteEligebilityException(String message) {
-		super(message);
-		// TODO Auto-generated constructor stub
+		super("ineligible to vote this year");
 	}
-
 }
