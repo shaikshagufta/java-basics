@@ -1,7 +1,8 @@
 package threads.synchronization;
 
 public class Table {
-	void printTable(int multiplier) 
+	
+synchronized void printTable(int multiplier) 
 	{
 			for(int i=1; i<6; i++)
 			{
