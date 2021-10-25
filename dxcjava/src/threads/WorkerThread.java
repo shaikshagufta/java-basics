@@ -11,8 +11,7 @@ String message;
 
 	@Override
 	public void run() {
-		System.out.println(Thread.currentThread().getName());
-		System.out.println("i am working on--"+message);
+		System.out.println(Thread.currentThread().getName() +":--i am working on -- "+message);
 		processMessage();
 		System.out.println("i am done with "+message+" thread name is "+ Thread.currentThread().getName());
 	}
