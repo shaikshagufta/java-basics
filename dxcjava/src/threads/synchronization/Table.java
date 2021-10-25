@@ -1,18 +1,26 @@
 package threads.synchronization;
 
 public class Table {
-	
-synchronized void printTable(int multiplier) 
+
+	synchronized void printTable(int multiplier) 
 	{
+		System.out.println(Thread.currentThread().getName()+"--thread is in printable method");
+		synchronized (this) 
+		{
+			// synchronized block
+
 			for(int i=1; i<6; i++)
 			{
 				try {
 					Thread.sleep(100);
-				} catch (InterruptedException e) {
+				}
+				catch (InterruptedException e)
+				{
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				System.out.println(i*multiplier);
 			}
+		}
 	}
 }
