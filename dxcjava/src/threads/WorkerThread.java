@@ -11,10 +11,10 @@ String message;
 
 	@Override
 	public void run() {
-		System.out.println("thread name is " + Thread.currentThread().getName());
+		System.out.println(Thread.currentThread().getName());
 		System.out.println("i am working on--"+message);
 		processMessage();
-		System.out.println("i am done with "+message+ Thread.currentThread().getName());
+		System.out.println("i am done with "+message+" thread name is "+ Thread.currentThread().getName());
 	}
 
 	private void processMessage() {
