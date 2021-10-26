@@ -18,8 +18,7 @@ public class DemoOnArrayList {
 			System.out.println("the name is "+ name);
 		}
 		*/
-		@SuppressWarnings("rawtypes")
-		Iterator itr = names.iterator();
+		Iterator<String> itr = names.iterator();
 		while(itr.hasNext()) 
 		{
 			System.out.println(itr.next());
