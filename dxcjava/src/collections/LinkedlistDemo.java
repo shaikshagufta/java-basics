@@ -10,8 +10,8 @@ public class LinkedlistDemo {
 		LinkedList<String> names = new LinkedList<String>();
 		names.add("shaggu");
 		names.add("shagufta");
-		@SuppressWarnings("rawtypes")
-		Iterator itr = names.iterator();
+		
+		Iterator<String> itr = names.iterator();
 		while(itr.hasNext()) 
 		{
 			System.out.println(itr.next());
