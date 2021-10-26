@@ -1,6 +1,6 @@
 package threads;
 
-public class TestJoinMethod1 extends Thread
+public class TestJoinMethod1 extends Thread 
 {
 
 	public void run()
@@ -12,7 +12,8 @@ public class TestJoinMethod1 extends Thread
 			{  
 				Thread.sleep(500);  
 			}
-			catch(Exception e) {
+			catch(Exception e)
+			{
 				System.out.println(e);
 			}
 			System.out.println(i+"--"+Thread.currentThread().getName());  

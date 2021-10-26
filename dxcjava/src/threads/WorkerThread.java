@@ -5,9 +5,10 @@ String message;
 
 
 
-	public WorkerThread(String msg) {
+	public WorkerThread(String msg)
+   {
 	message = msg;
-}
+   }
 
 	@Override
 	public void run() {
