@@ -1,13 +1,13 @@
 package collections;
 
 import java.util.Iterator;
-import java.util.concurrent.PriorityBlockingQueue;
+import java.util.PriorityQueue;
 
 public class QueueDemo {
 
 	public static void main(String[] args)
 	{
-		PriorityBlockingQueue<String> names = new PriorityBlockingQueue<>();
+		PriorityQueue<String> names = new PriorityQueue<>();
 		names.add("shaggu");
 		names.add("shagufta");
 		names.add("Shayi");
